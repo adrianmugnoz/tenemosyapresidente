@@ -1,0 +1,143 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	color: rgba(255,255,255,0.8);
+	width: 100%;
+}
+
+footer a{
+	color: #fff;
+}
+
+.container {
+    background-image: url("../img/background_presi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.container-shadow {
+    background-color: rgba(0,0,0,0.7);
+    background-image: -webkit-linear-gradient(-45deg,rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 50%);
+    background-image: linear-gradient(-225deg,rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 50%);
+    background-color: transparent;
+    color: white;
+    height: inherit;
+}
+
+.centered{
+	margin: auto;
+	width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+}
+
+h1{
+	padding-top:20px;
+    font-size: 200px;
+    line-height: 220px;
+    height: 250px;
+    text-shadow: 2px 2px #000;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+h3{
+
+}
+
+.time{
+	font-size: 45px;
+}
+
+@media(max-width: 600px){
+	.time{
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.soc{
+		padding: 10px;
+	}
+
+	.soc li{
+		margin-bottom: 0px;
+	}
+
+	.soc a{
+		height: 7rem;
+		height: 70px;
+		width: 7rem;
+		width: 70px;
+	}
+}
+
+.soc {
+  display: block
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px; // IE8
+  padding: 4.8rem;
+  text-align: center;
+}
+.soc li {
+    display: inline-block;
+    margin: 12px; // IE8
+    margin: 1.;
+ }
+
+.soc a, .soc svg{
+    display: block
+}
+.soc a{
+    position: relative // IE8
+    height: 96px; // IE8
+    height: 9.6rem;
+    width: 96px; // IE8
+    width: 9.6rem;
+}
+svg{
+    height: 100%;
+    width: 100%;
+}
+
+ .icon-twitter{
+    color: #55acee;
+    fill: #55acee;
+ }
+
+ .icon-twitter:hover{
+ 	border-radius: 100%;
+  transform: scale(1.25);
+  transition: background-color .5s, transform .5s ease-out;
+ }
+
+ .icon-facebook{
+ 	color: 	#dfe3ee;
+ 	fill: 	#dfe3ee;
+ }
+
+ .icon-facebook:hover{
+ 	border-radius: 100%;
+  transform: scale(1.25);
+  transition: background-color .5s, transform .5s ease-out;
+ }
+
+
+
+
