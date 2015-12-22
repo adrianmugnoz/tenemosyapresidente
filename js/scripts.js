@@ -62,6 +62,4 @@ function share_tw() {
 $('document').ready(function(){
     startTime = new Date(1450655940000);
     setTimeout(display, 1000);
-    var fb_description = '<meta property="og:description" content="No.'+texto+'" />';
-    $('head').append(fb_description);
 });
