@@ -42,6 +42,19 @@ footer a{
     text-align: center;
 }
 
+.poll{
+  width:680px;
+  height:300px;
+  border:0;
+}
+
+@media only screen and (max-device-width: 680px){
+  .poll{
+    width:100%;
+    min-height:460px;
+  }
+}
+
 h1{
 	padding-top:20px;
     font-size: 200px;
